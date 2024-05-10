@@ -1,0 +1,21 @@
+Projet réseau
+
+Fonctionnalités demandées :
+    - Création d'un serveur :
+        (OK) Click droit sur l'interface graphique et un menu "créer un serveur" s'affiche. Click gauche et le serveur est visible
+        à l'écran
+    - Lorsqu'on refait un click droit sur le serveur créé, on a les possibilités :
+        . (OK) d'y ajouter des urls(sites)
+        . (OK) d'établir une liaison avec d'autres serveurs en précisant le temps de réponse(poids)
+        (Fonctionnalité principale)
+        . (OK) de faire des recherches. "Le chemin le plus court" vers le serveur dont le temps de réponse est le plus rapide sera mis en surbrillance
+        . (OK) stopper le serveur
+    - (OK) On peut maintenir la souris(drag) sur un serveur et ainsi le déplacer sur la fenêtre
+
+Tâches :
+    - Création des classes :
+        . (OK) serveur (urls, voisins, poids des arcs)
+        . dns (qui contient le mapping entre les noms de domaines et les ip)
+    - (OK) Création de l'interface graphique et gestion des évènements
+
+Technologie : Python
